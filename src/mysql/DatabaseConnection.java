@@ -13,8 +13,8 @@ public class DatabaseConnection {
         connectionURL = "jdbc:mysql://localhost:3306/";
         dbName = "travel_agency";
         ssl = "?autoReconnect=true&useSSL=false";
-        username = "root";
-        password = "MySQL_Teo1234";
+        username = "";
+        password = "";
     }
     public Connection getConnection() throws Exception {
         Class.forName(driver);
